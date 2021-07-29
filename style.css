@@ -66,8 +66,6 @@ table {
   padding: 0px 0px 0px 0px;
   text-align: right;
   position: absolute;
-  /* background-color: gold;
-  border: 2px black solid; */
   top: 0px;
   left: 0px;
 }
@@ -116,7 +114,6 @@ a {
   margin: 0px 0px 0px 0px;
   /* margin: 3.241% 1.823% 0% 0%; */
   row-gap: 11.594%;
-  aspect-ratio: 1 / 1;
 }
 #behance{
   height: 100%;
@@ -152,18 +149,49 @@ h1 {
   font-size: 9.259vh;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 6.667%;
   text-align: center;
   max-width: 390px;
-  max-height: 100px;
+  max-height: 9.26%;
+  padding: 0px;
+  line-height: 0px;
+  /* background-color: orange;
+  border: 2px solid black; */
 }
 p {
   font-family: 'Myanmar Sangam MN';
   font-weight: bold;
   font-size: 3.796vh;
+  text-align: center;
+  line-height: 136.333%;
+  padding: 0px;
+  margin: 0px;
+  /* background-color: orange;
+  border: 2px solid black; */
+}
+p#intro {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5.463%;
+  margin-bottom: 0px;
+  padding: 0px;
+  max-width: 55%;
+  max-height: 18.981%;
+}
+
+/* Button Styling */
+
+button {
+  font-family: 'Myanmar Sangam MN';
+  font-weight: bold;
+  font-size: 3.796vh;
   text-align: center;
-  max-width: 902px;
-  max-height: 205px;
-  line-height: 41px;
+  border: 0px;
+  background: #22C7EF;
+  margin-top: 10.648%;
+  margin-bottom: 22.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
