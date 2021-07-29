@@ -208,4 +208,27 @@ button {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding: 2px 20px 0px 20px;
+}
+
+/* Mockup Styling */
+
+#packmi {
+  position: absolute;
+  left: 7.71%;
+  right: 79.01%;
+  top: 55.62%;
+  bottom: 2.44%;
+  /* max-height: 41.944vh; */
+  max-height: 45vh;
+  transform: rotate(-11deg);
+}
+#budgit {
+  position: absolute;
+  left: 79.24%;
+  right: 7.48%;
+  top: 51.11%;
+  bottom: 6.94%;
+  max-height: 49.75vh;
+  transform: rotate(11deg);
 }
