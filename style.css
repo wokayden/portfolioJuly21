@@ -139,33 +139,28 @@ a {
   position: absolute;
   padding: 3.241% 1.823%;
   margin: 0px 0px 0px 0px;
-  /* margin: 3.241% 1.823% 0% 0%; */
   row-gap: 11.594%;
 }
 #behance{
   height: 100%;
   width: 100%;
   margin: 0px;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 #github {
   height: 100%;
   width: 100%;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 #linkedin {
   height: 100%;
   width: 100%;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 #instagram {
   height: 100%;
   width: 100%;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 
 /* Main content on the page now */
@@ -218,7 +213,6 @@ button {
   border-radius: 2px;
   background: #22C7EF;
   margin-top: 10.648vh;
-  margin-bottom: 22.5vh;
   margin-left: auto;
   margin-right: auto;
   display: block;
