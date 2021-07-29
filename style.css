@@ -60,7 +60,7 @@ table {
 }
 @font-face {
   font-family: 'Myanmar Sangam MN';
-  url('fonts/MyanmarSangamMN.ttc');
+  src: url('fonts/MyanmarSangamMN.ttc');
 }
 
 /* Let's sort this menu out, hmm?? */
