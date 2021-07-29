@@ -50,6 +50,20 @@ table {
 
 /* END RESET!!!!! UR GOOD TO STYLE HUN */
 
+/* BG Color (gradient) */
+
+body {
+  background: hsla(0, 68%, 56%, 1);
+
+  background: radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
+  
+  background: -moz-radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
+  
+  background: -webkit-radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DB4141", endColorstr="#ffffff", GradientType=1 );
+}
+
 /* Will this font import work...? */
 
 @font-face {
