@@ -53,11 +53,14 @@ table {
 /* Will this font import work...? */
 
 @font-face {
-  font-family: 'Velodroma Basic' 'Myanmar Sangam MN';
+  font-family: 'Velodroma Basic';
   src:  url('fonts/velodroma_basic/VelodromaBasic-Regular.otf'),
         url('fonts/velodroma_basic/VelodromaBasic-Wide.otf'),
-        url('fonts/velodroma_basic/VelodromaBasic-SuperWide.otf'),
-        url('fonts/MyanmarSangamMN.ttc');
+        url('fonts/velodroma_basic/VelodromaBasic-SuperWide.otf');
+}
+@font-face {
+  font-family: 'Myanmar Sangam MN';
+  url('fonts/MyanmarSangamMN.ttc');
 }
 
 /* Let's sort this menu out, hmm?? */
