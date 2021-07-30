@@ -178,19 +178,15 @@ h1 {
   max-height: 9.26vh;
   padding: 0px;
   line-height: 0px;
-  /* background-color: orange;
-  border: 2px solid black; */
 }
 p {
   font-family: 'Myanmar Sangam MN';
   font-weight: bold;
-  font-size: 3.796vh;
+  font-size: 3.25vh;
   text-align: center;
   line-height: 136.333%;
   padding: 0px;
   margin: 0px;
-  /* background-color: orange;
-  border: 2px solid black; */
 }
 p#intro {
   margin-left: auto;
@@ -221,22 +217,28 @@ button {
 
 /* Mockup Styling */
 
+.mocks {
+  display: flex;
+  justify-content: flex-end;
+}
+
 #packmi {
   position: absolute;
   left: 7.71%;
   right: 79.01%;
   top: 55.62%;
   bottom: 2.44%;
-  /* max-height: 41.944vh; */
-  max-height: 45vh;
+  max-height: 453px;
+  height: 45vh;
   transform: rotate(-11deg);
 }
 #budgit {
   position: absolute;
-  left: 79.24%;
-  right: 7.48%;
-  top: 51.11%;
-  bottom: 6.94%;
-  max-height: 49.75vh;
+  left: 79.01%;
+  right: 7.71%;
+  top: 51.62%;
+  bottom: 2.44%;
+  max-height: 453px;
+  height: 45vh;
   transform: rotate(11deg);
 }
