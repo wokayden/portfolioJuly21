@@ -80,7 +80,7 @@ body {
 /* Let's sort this menu out, hmm?? */
 
 .navMenu {
-  font-family: 'Velodroma Basic'; /*Very aware I have to find a way to implement/import/link this*/
+  font-family: 'Velodroma Basic'; 
   font-size: 2.87vh;
   height: 24.074%;
   max-height: 260px;
@@ -117,11 +117,8 @@ a {
   max-width: 9.531%;
   max-height: 16.944%;
   border-width: 5px;
-  border-style: solid inset inset solid;
-  border-top-color: #7B32F2;
-  border-right-color: #7B32F2;
-  border-bottom-color: #7AE82A;
-  border-left-color: #7AE82A;
+  border-style: outset inset outset inset;
+  border-color: #22C7EF;
   position: relative;
 }
 
@@ -220,25 +217,28 @@ button {
 .mocks {
   display: flex;
   justify-content: flex-end;
+  align-items: space-between;
+  width: 84.583vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 
 #packmi {
   position: absolute;
   left: 7.71%;
-  right: 79.01%;
-  top: 55.62%;
   bottom: 2.44%;
   max-height: 453px;
-  height: 45vh;
+  min-height: 200px;
+  height: 45.648vh;
   transform: rotate(-11deg);
 }
 #budgit {
   position: absolute;
-  left: 79.01%;
   right: 7.71%;
-  top: 51.62%;
   bottom: 2.44%;
   max-height: 453px;
-  height: 45vh;
+  min-height: 200px;
+  height: 45.648vh;
   transform: rotate(11deg);
 }
