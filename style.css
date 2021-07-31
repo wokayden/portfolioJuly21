@@ -248,7 +248,7 @@ button {
 
 /* Tablet View */
 
-@media only screen and (max-width: 1024px) and (min-width: 500px) and (max-height: 1366px) and (min-height: 720px){
+@media only screen and (max-width: 1024px) and (min-width: 500px){
 
   .navMenu {
     display: none;
@@ -275,6 +275,7 @@ button {
     min-height: 100px;
     max-width: 300px;
     max-height: 300px;
+    border-width: 10px;
   }
 
   h1 {
@@ -305,7 +306,7 @@ button {
 
 /* Phone view */
 
-@media only screen and (max-width: 499px) and (min-width: 300px) and (min-height: 550px) and (max-height: 719px){
+@media only screen and (max-width: 499px) and (min-width: 300px){
 
   .navMenu {
     display: none;
