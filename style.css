@@ -254,9 +254,17 @@ button {
     display: none;
   }
 
-  .mocks {
-    display: none;
+  #packmi {
+    max-height: 300px;
+    min-height: 150px;
+    height: auto;
   }
+
+  #budgit {
+    max-height: 300px;
+    min-height: 150px;
+    height: auto;
+    }
 
   #kato1 {
     min-width: 100px;
