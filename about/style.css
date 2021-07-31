@@ -55,11 +55,11 @@ table {
 body {
     background: hsla(263, 88%, 57%, 1);
 
-    background: radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 46%);
+    background: radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%);
     
-    background: -moz-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 46%);
+    background: -moz-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%);
     
-    background: -webkit-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 46%);
+    background: -webkit-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%);
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B32F2", endColorstr="#FFFFFF", GradientType=1 );
 }
@@ -163,10 +163,6 @@ body {
 
 /* Main section */
   section {
-      /* margin-top: 3.241%;
-      margin-bottom: 14.907%;
-      margin-left: 20.156%;
-      margin-right: 27.188%; */
       top: 3.241vh;
       bottom: 14.907vh;
       left: 20.156vw;
