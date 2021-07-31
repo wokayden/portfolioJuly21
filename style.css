@@ -273,8 +273,8 @@ button {
   #kato1 {
     min-width: 100px;
     min-height: 100px;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
     border-width: 10px;
   }
 
@@ -318,9 +318,14 @@ button {
 
   .mocks {
     display: none;
+    max-height: 35%;
   }
 
   .menu {
     display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 15%;
+    max-width: 225px;
   }
 }
