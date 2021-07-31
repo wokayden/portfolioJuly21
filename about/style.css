@@ -50,3 +50,132 @@ table {
 }
 
 /* Reset over!! */
+
+/* Fonts  */
+@font-face {
+    font-family: 'Velodroma Basic';
+    src:  url('fonts/velodroma_basic/VelodromaBasic-Regular.otf'),
+          url('fonts/velodroma_basic/VelodromaBasic-Wide.otf'),
+          url('fonts/velodroma_basic/VelodromaBasic-SuperWide.otf');
+  }
+  @font-face {
+    font-family: 'Myanmar Sangam MN';
+    src: url('fonts/MyanmarSangamMN.ttc');
+  }
+
+.menu {
+      display: none;
+  }
+
+
+/* Nav Styling */
+.navMenu {
+    font-family: 'Velodroma Basic'; 
+    font-size: 2.87vh;
+    height: 24.074%;
+    max-height: 260px;
+    width: fit-content;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 3.241% 0% 0% 1.823%;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  li.nav{
+    margin: 0px 0px 0px 0px;
+    padding: 0% 0% 17.308% 0%;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+  }
+  a {
+      text-decoration: none;
+  }
+
+  /* Socials */
+  .socials {
+    display: flex;
+    flex-direction: row;
+    height: 4.167%;
+    width: 14.375%;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    padding: 3.241% 1.823%;
+    margin: 0px 0px 0px 0px;
+    row-gap: 11.594%;
+  }
+  #behance{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    max-height: 4.167vh;
+  }
+  #github {
+    height: 100%;
+    width: 100%;
+    max-height: 4.167vh;
+  }
+  #linkedin {
+    height: 100%;
+    width: 100%;
+    max-height: 4.167vh;
+  }
+  #instagram {
+    height: 100%;
+    width: 100%;
+    max-height: 4.167vh;
+  }
+
+  /* Image styling */
+  #kdw {
+    display: block;
+    margin-bottom: auto;
+    margin-top: 5.368%;
+    padding: 0px;
+    max-height: 70.185vh;
+    border: 5px solid black;
+  }
+
+/* Main section */
+  section {
+      margin-top: 3.241%;
+      margin-bottom: 14.907%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 57.344%;
+      max-height: 74.167vh;
+      padding: 0px;
+  }
+
+/* Text styling */
+h1 {
+    font-family: 'Biryani';
+    font-weight: black;
+    font-size: 9.259vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 6.667%;
+    text-align: center;
+    max-height: 9.26vh;
+    padding: 0px;
+    line-height: 0px;
+  }
+  p {
+    font-family: 'Myanmar Sangam MN';
+    font-weight: bold;
+    font-size: 3.25vh;
+    text-align: center;
+    line-height: 136.333%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
