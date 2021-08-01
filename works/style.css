@@ -60,7 +60,7 @@ table {
   @font-face {
     font-family: 'Myanmar Sangam MN';
     src: url('../fonts/MyanmarSangamMN.ttc');
-  }
+}
 
 /* Menus */
 .menu {
@@ -82,17 +82,17 @@ table {
     position: absolute;
     top: 0px;
     left: 0px;
-  }
+}
   li.nav{
     margin: 0px 0px 0px 0px;
     padding: 0% 0% 17.308% 0%;
     list-style: none;
     color:black;
     text-decoration: none;
-  }
+}
   a {
       text-decoration: none;
-  }
+}
 
   /* Social Media */
   .socials {
@@ -133,18 +133,15 @@ table {
 
   /* Text Styling */
   h1 {
-    /* position: absolute; */
     font-family: 'Biryani';
     font-weight: black;
     font-size: 9.259vh;
-    /* padding: 0px; */
-    line-height: 0px;
-    /* text-align: right; */
-    /* top: 10.926vh;
-    right: 30.26vw; */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 48.056vw;
   }
   p {
-    /* position: absolute; */
     font-family: 'Myanmar Sangam MN';
     font-weight: bold;
     font-size: 3.25vh;
@@ -152,15 +149,22 @@ table {
     line-height: 136.333%;
     padding: 0px;
     margin: 0px;
-    /* top: 25.648vh;
-    left: 49.479vw;
-    max-width: 22.813vw; */
   }
   h2 {
-      /* position: absolute; */
       font-family: 'Biryani';
       font-weight: bold;
       font-size: 5.463vh;
+  }
+  #rWorks {
+    margin-top: 12.5vh;
+  }
+  #more {
+      margin-top: 2.123vh;
+      margin-right: 9.896vw;
+      text-align: right;
+  }
+  #process {
+      margin-top: 6.204vh;
   }
 
   /* Image Sizing & Position */
@@ -169,4 +173,13 @@ table {
 }
 #packMi {
     max-height: 41.94vh;
+}
+.mocks {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.944vh;
 }
