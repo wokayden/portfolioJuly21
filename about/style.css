@@ -201,7 +201,7 @@ h1 {
   h2 {
       position: absolute;
       font-family: 'Biryani';
-      font-weight: black;
+      font-weight: bold;
       font-size: 5.463vh;
   }
   button {
@@ -259,5 +259,11 @@ button#ats {
 }
 ul#skills {
     list-style-type: disc;
+    /* overflow: scroll; */
+    white-space: nowrap;
+    width: fit-content;
+}
+li {
+    padding-right: 60px;
 }
   
