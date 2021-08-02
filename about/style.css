@@ -62,6 +62,8 @@ body {
     background: -webkit-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%);
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B32F2", endColorstr="#FFFFFF", GradientType=1 );
+
+    overflow: hidden;
 }
 
 /* Fonts  */
