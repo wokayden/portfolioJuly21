@@ -53,7 +53,7 @@ table {
 /* BG Color (gradient) */
 
 body {
-  background: hsla(0, 68%, 56%, 1) !important;
+  background: hsla(0, 68%, 56%, 1) ;
 
   background: radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
   
@@ -304,9 +304,101 @@ button {
 
 }
 
+/* Screen Resizing - Tablet-Size*/
+
+@media (max-width: 1024px) and (min-width: 500px){
+
+  .navMenu {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  #packmi {
+    max-height: 200px;
+    min-height: 100px;
+  }
+
+  #budgit {
+    max-height: 200px;
+    min-height: 100px;
+    }
+
+  #kato1 {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    border-width: 10px;
+  }
+
+  h1 {
+    font-size: 8vh;
+    margin-top: 10vh;
+  }
+
+  p#intro {
+    font-size: 3vh;
+    margin-top: 6vh;
+    max-width: 85vw;
+  }
+  
+  button {
+    bottom: 2.44%;
+    margin-bottom: 3.241%;    
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 60px;
+    max-width: 100px;
+  }
+
+}
+
+
 /* Phone view */
 
 @media only screen and (max-width: 499px) and (min-width: 300px){
+
+  .navMenu {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .mocks {
+    display: none;
+    max-height: 300px;
+    min-height: 100px;
+  }
+
+  #pakmi {
+    min-height: 10%;
+  }
+
+  #budgit {
+    min-height: 10%;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 15%;
+    max-width: 225px;
+  }
+}
+
+/* Screen Resizing - Phone Size */
+
+@media (max-width: 499px) and (min-width: 300px){
 
   .navMenu {
     display: none;
