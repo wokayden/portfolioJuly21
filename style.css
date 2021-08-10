@@ -53,7 +53,7 @@ table {
 /* BG Color (gradient) */
 
 body {
-  background: hsla(0, 68%, 56%, 1) ;
+  /* background: hsla(0, 68%, 56%, 1) ;
 
   background: radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
   
@@ -61,8 +61,31 @@ body {
   
   background: -webkit-radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
   
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DB4141", endColorstr="#ffffff", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DB4141", endColorstr="#ffffff", GradientType=1 ); */
+
+  background-image: radial-gradient(circle, #cbb7ea, #d3c5ef, #dcd2f3, #e6e0f7, #f0edfb, #edf1fe, #ebf4ff, #ebf7ff, #d3f3fa, #bff0ea, #b9eacf, #c4e0af);
+  /* animation-name: bgColor;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite; */
 }
+
+/* @keyframes bgColor {
+
+  0% {
+    background-image: radial-gradient(circle, #cbb7ea, #d3c5ef, #dcd2f3, #e6e0f7, #f0edfb, #edf1fe, #ebf4ff, #ebf7ff, #d3f3fa, #bff0ea, #b9eacf, #c4e0af);
+  }
+  33.33% {
+    background-image: radial-gradient(circle, #ffffff, #f2f8ff, #dbf4ff, #c3f1f3, #b7ecdb, #ace8d6, #a1e4d0, #95e0cb, #80dbe4, #88d2f5, #a8c6f8, #cbb7ea);
+  }
+  66.66% {
+    background-image: radial-gradient(circle, #c4e0af, #a0e1c3, #85dddc, #82d6f1, #9ccaf9, #b3c9f8, #c6c9f5, #d6c9f0, #dfd7f4, #e9e4f8, #f4f2fc, #ffffff);
+  }
+  100% {
+    background-image: radial-gradient(circle, #cbb7ea, #d3c5ef, #dcd2f3, #e6e0f7, #f0edfb, #edf1fe, #ebf4ff, #ebf7ff, #d3f3fa, #bff0ea, #b9eacf, #c4e0af);
+  }
+
+} */
+/* Animating the background did not work :( */
 
 /* Will this font import work...? */
 
@@ -120,7 +143,28 @@ a {
   border-style: outset inset outset inset;
   border-color: #22C7EF;
   position: relative;
+  /* animation-name: photoBorder;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; */
 }
+/* Tried more animation and it yet again wasn't smooth :') */
+/* @keyframes photoBorder {
+  0% {
+    border-style: outset inset outset inset;
+  }
+  25% {
+    border-style: inset inset inset inset;
+  }
+  50% {
+    border-style: inset outset inset outset;
+  }
+  75% {
+    border-style: outset outset outset outset;
+  }
+  100% {
+    border-style: outset inset outset inset;
+  }
+} */
 
 /* Now here's the social media setup for the top. */
 
