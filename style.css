@@ -50,6 +50,43 @@ table {
 
 /* END RESET!!!!! UR GOOD TO STYLE HUN */
 
+/* BG Color (gradient) */
+
+body {
+  /* background: hsla(0, 68%, 56%, 1) ;
+
+  background: radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
+  
+  background: -moz-radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
+  
+  background: -webkit-radial-gradient(circle, hsla(0, 68%, 56%, 0.15) 0%, hsla(0, 0%, 100%, 1) 38%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#DB4141", endColorstr="#ffffff", GradientType=1 ); */
+
+  background-image: radial-gradient(circle, #cbb7ea, #d3c5ef, #dcd2f3, #e6e0f7, #f0edfb, #edf1fe, #ebf4ff, #ebf7ff, #d3f3fa, #bff0ea, #b9eacf, #c4e0af);
+  /* animation-name: bgColor;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite; */
+}
+
+/* @keyframes bgColor {
+
+  0% {
+    background-image: radial-gradient(circle, #cbb7ea, #d3c5ef, #dcd2f3, #e6e0f7, #f0edfb, #edf1fe, #ebf4ff, #ebf7ff, #d3f3fa, #bff0ea, #b9eacf, #c4e0af);
+  }
+  33.33% {
+    background-image: radial-gradient(circle, #ffffff, #f2f8ff, #dbf4ff, #c3f1f3, #b7ecdb, #ace8d6, #a1e4d0, #95e0cb, #80dbe4, #88d2f5, #a8c6f8, #cbb7ea);
+  }
+  66.66% {
+    background-image: radial-gradient(circle, #c4e0af, #a0e1c3, #85dddc, #82d6f1, #9ccaf9, #b3c9f8, #c6c9f5, #d6c9f0, #dfd7f4, #e9e4f8, #f4f2fc, #ffffff);
+  }
+  100% {
+    background-image: radial-gradient(circle, #cbb7ea, #d3c5ef, #dcd2f3, #e6e0f7, #f0edfb, #edf1fe, #ebf4ff, #ebf7ff, #d3f3fa, #bff0ea, #b9eacf, #c4e0af);
+  }
+
+} */
+/* Animating the background did not work :( */
+
 /* Will this font import work...? */
 
 @font-face {
@@ -66,7 +103,7 @@ table {
 /* Let's sort this menu out, hmm?? */
 
 .navMenu {
-  font-family: 'Velodroma Basic'; /*Very aware I have to find a way to implement/import/link this*/
+  font-family: 'Velodroma Basic'; 
   font-size: 2.87vh;
   height: 24.074%;
   max-height: 260px;
@@ -103,13 +140,31 @@ a {
   max-width: 9.531%;
   max-height: 16.944%;
   border-width: 5px;
-  border-style: solid inset inset solid;
-  border-top-color: #7B32F2;
-  border-right-color: #7B32F2;
-  border-bottom-color: #7AE82A;
-  border-left-color: #7AE82A;
+  border-style: outset inset outset inset;
+  border-color: #22C7EF;
   position: relative;
+  /* animation-name: photoBorder;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; */
 }
+/* Tried more animation and it yet again wasn't smooth :') */
+/* @keyframes photoBorder {
+  0% {
+    border-style: outset inset outset inset;
+  }
+  25% {
+    border-style: inset inset inset inset;
+  }
+  50% {
+    border-style: inset outset inset outset;
+  }
+  75% {
+    border-style: outset outset outset outset;
+  }
+  100% {
+    border-style: outset inset outset inset;
+  }
+} */
 
 /* Now here's the social media setup for the top. */
 
@@ -125,33 +180,28 @@ a {
   position: absolute;
   padding: 3.241% 1.823%;
   margin: 0px 0px 0px 0px;
-  /* margin: 3.241% 1.823% 0% 0%; */
   row-gap: 11.594%;
 }
 #behance{
   height: 100%;
   width: 100%;
   margin: 0px;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 #github {
   height: 100%;
   width: 100%;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 #linkedin {
   height: 100%;
   width: 100%;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 #instagram {
   height: 100%;
   width: 100%;
-  max-height: 45px;
-  max-width: 45px;
+  max-height: 4.167vh;
 }
 
 /* Main content on the page now */
@@ -165,23 +215,18 @@ h1 {
   margin-bottom: 0px;
   margin-top: 6.667%;
   text-align: center;
-  max-width: 390px;
   max-height: 9.26vh;
   padding: 0px;
   line-height: 0px;
-  /* background-color: orange;
-  border: 2px solid black; */
 }
 p {
   font-family: 'Myanmar Sangam MN';
   font-weight: bold;
-  font-size: 3.796vh;
+  font-size: 3.25vh;
   text-align: center;
   line-height: 136.333%;
   padding: 0px;
   margin: 0px;
-  /* background-color: orange;
-  border: 2px solid black; */
 }
 p#intro {
   margin-left: auto;
@@ -203,8 +248,7 @@ button {
   border: 0px;
   border-radius: 2px;
   background: #22C7EF;
-  margin-top: 10.648vh;
-  margin-bottom: 22.5vh;
+  margin-top: 5.463%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -213,22 +257,211 @@ button {
 
 /* Mockup Styling */
 
+.mocks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: space-between;
+  width: 84.583vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
 #packmi {
   position: absolute;
   left: 7.71%;
-  right: 79.01%;
-  top: 55.62%;
   bottom: 2.44%;
-  /* max-height: 41.944vh; */
-  max-height: 45vh;
+  max-height: 453px;
+  min-height: 200px;
+  height: 45.648vh;
   transform: rotate(-11deg);
 }
 #budgit {
   position: absolute;
-  left: 79.24%;
-  right: 7.48%;
-  top: 51.11%;
-  bottom: 6.94%;
-  max-height: 49.75vh;
+  right: 7.71%;
+  bottom: 2.44%;
+  max-height: 453px;
+  min-height: 200px;
+  height: 45.648vh;
   transform: rotate(11deg);
+}
+
+.menu {
+  display:none;
+}
+
+/* Tablet View */
+
+@media only screen and (max-width: 1024px) and (min-width: 500px){
+
+  .navMenu {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  #packmi {
+    max-height: 300px;
+    min-height: 150px;
+    height: auto;
+  }
+
+  #budgit {
+    max-height: 300px;
+    min-height: 150px;
+    height: auto;
+    }
+
+  #kato1 {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    border-width: 10px;
+  }
+
+  h1 {
+    font-size: 8vh;
+    margin-top: 10vh;
+  }
+
+  p#intro {
+    font-size: 3vh;
+    margin-top: 6vh;
+    max-width: 85vw;
+  }
+  
+  button {
+    bottom: 2.44%;
+    margin-bottom: 3.241%;    
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 60px;
+    max-width: 100px;
+  }
+
+}
+
+/* Screen Resizing - Tablet-Size*/
+
+@media (max-width: 1024px) and (min-width: 500px){
+
+  .navMenu {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  #packmi {
+    max-height: 200px;
+    min-height: 100px;
+  }
+
+  #budgit {
+    max-height: 200px;
+    min-height: 100px;
+    }
+
+  #kato1 {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    border-width: 10px;
+  }
+
+  h1 {
+    font-size: 8vh;
+    margin-top: 10vh;
+  }
+
+  p#intro {
+    font-size: 3vh;
+    margin-top: 6vh;
+    max-width: 85vw;
+  }
+  
+  button {
+    bottom: 2.44%;
+    margin-bottom: 3.241%;    
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 60px;
+    max-width: 100px;
+  }
+
+}
+
+
+/* Phone view */
+
+@media only screen and (max-width: 499px) and (min-width: 300px){
+
+  .navMenu {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .mocks {
+    display: none;
+    max-height: 300px;
+    min-height: 100px;
+  }
+
+  #pakmi {
+    min-height: 10%;
+  }
+
+  #budgit {
+    min-height: 10%;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 15%;
+    max-width: 225px;
+  }
+}
+
+/* Screen Resizing - Phone Size */
+
+@media (max-width: 499px) and (min-width: 300px){
+
+  .navMenu {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .mocks {
+    display: none;
+    max-height: 35%;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 7.71%;
+    min-width: 15%;
+    max-width: 225px;
+  }
 }

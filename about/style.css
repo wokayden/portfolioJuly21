@@ -1,0 +1,274 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset over!! */
+
+/* Background from coolors.co*/
+body {
+    background: hsla(263, 88%, 57%, 1) !important;
+
+    background: radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%) !important;
+    
+    background: -moz-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%) !important;
+    
+    background: -webkit-radial-gradient(circle, hsla(263, 88%, 57%, 0.3) 0%, hsla(0, 0%, 100%, 1) 33%) !important;
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7B32F2", endColorstr="#FFFFFF", GradientType=1 ) !important;
+
+    overflow: hidden;
+}
+
+/* Fonts  */
+@font-face {
+    font-family: 'Velodroma Basic';
+    src:  url('../fonts/velodroma_basic/VelodromaBasic-Regular.otf'),
+          url('../fonts/velodroma_basic/VelodromaBasic-Wide.otf'),
+          url('../fonts/velodroma_basic/VelodromaBasic-SuperWide.otf');
+  }
+  @font-face {
+    font-family: 'Myanmar Sangam MN';
+    src: url('../fonts/MyanmarSangamMN.ttc');
+  }
+
+
+.menu {
+      display: none;
+  }
+
+
+/* Nav Styling */
+.navMenu {
+    font-family: 'Velodroma Basic'; 
+    font-size: 2.87vh;
+    height: 24.074%;
+    max-height: 260px;
+    width: fit-content;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 3.241% 0% 0% 1.823%;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  li.nav{
+    margin: 0px 0px 0px 0px;
+    padding: 0% 0% 17.308% 0%;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+  }
+  a {
+      text-decoration: none;
+  }
+
+  /* Socials */
+  .socials {
+    display: flex;
+    flex-direction: row;
+    height: 4.167%;
+    width: 14.375%;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    padding: 3.241% 1.823%;
+    margin: 0px 0px 0px 0px;
+    row-gap: 11.594%;
+  }
+  #behance{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    max-height: 4.167vh;
+  }
+  #github {
+    height: 100%;
+    width: 100%;
+    max-height: 4.167vh;
+  }
+  #linkedin {
+    height: 100%;
+    width: 100%;
+    max-height: 4.167vh;
+  }
+  #instagram {
+    height: 100%;
+    width: 100%;
+    max-height: 4.167vh;
+  }
+
+  /* Image styling */
+  #kdw {
+    position: absolute;
+    display: block;
+    margin-bottom: auto;
+    top: 14.907vh;
+    left: 20.156vw;
+    right: 54.427vw;
+    padding: 0px;
+    height: 70.185vh;
+    border: 5px solid black;
+  }
+
+/* Main section */
+  section {
+      top: 3.241vh;
+      bottom: 14.907vh;
+      left: 20.156vw;
+      right: 27.188vw;
+      max-width: 57.344vw;
+      max-height: 74.167vh;
+      padding: 0px;
+      border: none;
+  }
+
+/* Text styling */
+h1 {
+    position: absolute;
+    font-family: 'Biryani';
+    font-weight: black;
+    font-size: 9.259vh;
+    padding: 0px;
+    line-height: 0px;
+    text-align: right;
+    top: 10.926vh;
+    right: 30.26vw;
+  }
+  p {
+    position: absolute;
+    font-family: 'Myanmar Sangam MN';
+    font-weight: bold;
+    font-size: 3.25vh;
+    text-align: left;
+    line-height: 136.333%;
+    padding: 0px;
+    margin: 0px;
+    top: 22.648vh;
+    left: 49.479vw;
+    max-width: 22.813vw;
+  }
+  h2 {
+      position: absolute;
+      font-family: 'Biryani';
+      font-weight: bold;
+      font-size: 5.463vh;
+  }
+  button {
+    font-family: 'Myanmar Sangam MN';
+    font-weight: bold;
+    font-size: 3.25vh;
+    text-align: center;
+    padding-top: 4px;
+}
+#skills {
+  margin-top: 2.5vh;
+}
+
+/* Aside sectioning */
+aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    max-width: 325px;
+    top: 41.944vh;
+    bottom: 41.944vh;
+    right: 1.823vw;
+}
+button {
+    padding-top: 10px;
+    border: none;
+    border-radius: 2px;
+}
+button#design {
+    background: #7B32F2;
+}
+button#ats {
+    background: #DB4141;
+}
+
+/* Skills section */
+.skillSection {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 3.241vh;
+    top: 85.093vh;
+    left: 1.823vw;
+    padding: 0;
+    margin: 0;
+}
+#skills {
+    position: absolute;
+    right: 0;
+    left: 9.948vw;
+    display: flex;
+    flex-direction: row;
+    row-gap: 1.042vw;
+    align-items: space-between;
+}
+ul#skills {
+    list-style-type: disc;
+    /* overflow: scroll; */
+    white-space: nowrap;
+    width: fit-content;
+}
+li {
+    padding-right: 60px;
+}
+  

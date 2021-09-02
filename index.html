@@ -9,22 +9,35 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@900&display=swap" rel="stylesheet">
+        <!-- Hotjar Tracking Code for https://wokayden.github.io/portfolioJuly21/ -->
+        <script>
+        (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2551827,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
     </head>
     <body>
         <!-- This is the navigation menu.-->
 
             <div class="navMenu">
                 <ul>
-                <a href="https://www.kaydenwolf.design" id="home"><li>Home</li></a>
-                <a href="https://www.kaydenwolf.design/works" id="works"><li>Works</li></a>
-                <a href="https://www.kaydenwolf.design/about" id="about"><li>About</li></a>
-                <a href="https://www.kaydenwolf.design/contact" id="contact"><li>Contact</li></a>
+                <a href="index.html" id="home"><li>Home</li></a>
+                <a href="works/index.html" id="works"><li>Works</li></a>
+                <a href="about/index.html" id="about"><li>About</li></a>
+                <a href="#" id="contact"><li>Contact</li></a>
                 </ul>
             </div>
+            
+            <img src="images/menu.svg" class="menu" alt="menu icon">
 
         <!--This is the image I'll use on the site-->
 
-                <img src="images/kato.png" alt="I'm Kayden Wolf, or Kato. This is a sample image, excuse the makeup lol." id="kato1">
+                <img src="images/portfolio1v4.png" alt="I'm Kayden Wolf, or Kato." id="kato1">
 
         <!-- Now for social media links -->
 
@@ -51,7 +64,12 @@
 
         <!-- Mobile Mockups -->
 
-        <a href="#"><img src="images/packmi.png" id="packmi" alt="A mobile app that helps busy adults work out the details of their travel, called PackMi."></a>
-        <a href="#"><img src="images/budgit.png" id="budgit" alt="A financial management and teaching app for young adults, called BudgIt."></a>
+        <div class="mocks">
+            <a href="#"><img src="images/packmiProto.png" id="packmi" alt="A mobile app for iOS that helps busy adults work out the details of their travel, called PackMi."></a>
+            <a href="#"><img src="images/budgitProto.png" id="budgit" alt="A financial management and teaching app for Android geared towards young adults, called BudgIt."></a>
+        </div>
+
+        <script src="jquery-3.6.0.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
